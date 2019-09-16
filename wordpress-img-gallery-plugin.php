@@ -5,4 +5,7 @@
    * Description: A simple image gallery
    * Author: Dylan Harrison
    */
+  add_shortcode('wp_img_gallery', function($atts = [], $content = null, $tag = '') {
+    return 'Hello, World!';
+  });
 ?>
